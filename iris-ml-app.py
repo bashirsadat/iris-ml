@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 import altair as alt
-image = Image.open('logoo.jpg')
+image = Image.open('logo.png')
 cola, colb, colc = st.columns([3,6,1])
 with cola:
     st.write("")
